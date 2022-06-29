@@ -3,6 +3,7 @@
     color: #fff;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .headerContainer{
@@ -14,6 +15,7 @@
 .headerList{
     display: flex;
     gap: 40px;
+    margin-bottom: 50px!important;
 }
 
 .headerListItem{
@@ -26,4 +28,69 @@
     border: 1px solid white;
     padding: 10px!important;
     border-radius: 20px;
+}
+
+.headerDesc{
+    margin: 20px 0!important;
+}
+
+.headerBtn{
+    background-color: #0071c2;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    padding: 10px!important;
+    cursor: pointer;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: #fff;
+    border: 3px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px!important;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcon{
+    color: lightgray;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+}
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.optionItem{
+    width: 200px;
 }
