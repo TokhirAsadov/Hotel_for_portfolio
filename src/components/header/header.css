@@ -86,11 +86,33 @@
     background-color: #fff;
     color: gray;
     border-radius: 5px;
-    -webkit-box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
 }
 
 .optionItem{
     width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px!important;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #000;
+}
+.optionCounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    background-color: #fff;
+    color: #0071c2;
+    cursor: pointer;
+}
+
+.optionCounterButton:disabled{
+    cursor: not-allowed;
 }
