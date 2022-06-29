@@ -78,11 +78,11 @@
 
 .date{
     position: absolute;
-    top: 50px;
+    top: 40px;
 }
 .options{
     position: absolute;
-    top: 50px;
+    top: 40px;
     background-color: #fff;
     color: gray;
     border-radius: 5px;
