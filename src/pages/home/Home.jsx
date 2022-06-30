@@ -7,6 +7,9 @@ const Home = () => {
     <div>
       <NavBar />
       <Header />
+      <div className="homeContainer">
+
+      </div>
     </div>
   );
 };
